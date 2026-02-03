@@ -1,0 +1,72 @@
+Admin:
+Dashboard - 
+login - default value
+1. total tasks, in progress, completed(card)
+2. View task (card)
+
+Create task -
+
+Manage Task - update, del
+
+Team members
+
+Logout
+
+
+
+User - register, login
+
+Dashboard - 
+1. total tasks, in progress, completed(card)
+2. View task (card)
+
+
+Manage Task - update, del
+
+
+Logout
+
+routes:
+admin:
+login- /admin
+dashboard- /dashboard
+create-task- /create-task
+manage-task- /admin-manage-task
+team-members- /team-members
+	
+user:
+login -/
+register -/register
+dashboard- /dashboard
+manage-task -/user-manage-task
+team-members- /team-members
+
+backend
+17-12 --> admin registration
+18-12 --> admin login page validation with token
+
+20-12 - create-task
+task model:
+1. task name
+2. desc
+3. due date
+4. priority
+5. assigned to:
+6. attachments
+
+task controller:
+1. create-task
+
+Manage task
+1. populate
+2. edit
+3. del
+
+Team member:
+
+
+
+
+
+
+
