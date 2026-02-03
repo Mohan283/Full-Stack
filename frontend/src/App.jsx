@@ -17,7 +17,6 @@ import UserManageTask from './user/UserManageTask'
 import Database from './user/Database'
 import ViewDatabase from './user/ViewDatabase'
 import UpdateDasebase from './user/UpdateDasebase'
-import Test from '../../test'
 import UserTeamMembers from './user/UserTeamMembers'
 function App() {
 
@@ -62,7 +61,6 @@ function App() {
             
             </Route>
  <Route path="/update-database/:id" element={<UpdateDasebase />} />
-   <Route path="test" element={<Test/>  }/>
         </Routes>
       </Router>
     </>
